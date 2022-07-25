@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     private val seekBar: SeekBar by lazy {
         findViewById(R.id.seekBar)
+
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,11 +37,9 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 override fun onStartTrackingTouch(p0: SeekBar?) {
-                    TODO("Not yet implemented")
                 }
 
                 override fun onStopTrackingTouch(p0: SeekBar?) {
-                    TODO("Not yet implemented")
                 }
             }
         )
