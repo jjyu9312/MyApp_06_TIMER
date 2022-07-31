@@ -67,7 +67,6 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
 
-
                 override fun onStartTrackingTouch(p0: SeekBar?) {
 
                     currentCountDownTimer?.cancel() // 현재 카운트다운 타이머 멈춤
