@@ -71,8 +71,6 @@ class MainActivity : AppCompatActivity() {
 
                     currentCountDownTimer?.cancel() // 현재 카운트다운 타이머 멈춤
                     currentCountDownTimer = null
-
-
                 }
 
                 override fun onStopTrackingTouch(p0: SeekBar?) {
