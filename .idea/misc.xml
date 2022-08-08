@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17553191489361702" />
+        <entry key="app/src/main/res/drawable/drawable_tick_mark.xml" value="0.1255" />
+        <entry key="app/src/main/res/drawable/ic_baseline_unfold_less_24.xml" value="0.1255" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>

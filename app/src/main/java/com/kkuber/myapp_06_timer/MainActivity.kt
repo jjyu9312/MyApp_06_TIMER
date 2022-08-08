@@ -122,7 +122,7 @@ class MainActivity : AppCompatActivity() {
 
         val remainSeconds = remainMillis / 1000
 
-        remianMinutesTextView.text = "%02d".format(remainSeconds / 60)
+        remianMinutesTextView.text = "%02d'".format(remainSeconds / 60)
         remainSecondsTextView.text = "%02d".format(remainSeconds % 60)
     }
 
