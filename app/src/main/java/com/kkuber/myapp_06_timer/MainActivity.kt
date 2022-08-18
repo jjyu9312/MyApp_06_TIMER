@@ -85,6 +85,7 @@ class MainActivity : AppCompatActivity() {
         )
     }
 
+
     private fun createCountDownTimer(initialMillis: Long) =
 
         object: CountDownTimer(initialMillis, 1000L) {
@@ -101,6 +102,8 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
+
+
 
     private fun stopCountDown() {
         currentCountDownTimer?.cancel()
