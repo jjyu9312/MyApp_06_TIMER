@@ -101,8 +101,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-
-
     private fun stopCountDown() {
         currentCountDownTimer?.cancel()
         currentCountDownTimer = null
