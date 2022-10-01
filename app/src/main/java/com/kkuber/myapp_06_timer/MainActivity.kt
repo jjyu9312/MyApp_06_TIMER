@@ -101,11 +101,15 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+
+
     private fun stopCountDown() {
         currentCountDownTimer?.cancel()
         currentCountDownTimer = null
         soundPool.autoPause()
     }
+
+
 
     private fun startCountDown() {
 
