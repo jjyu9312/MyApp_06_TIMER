@@ -107,8 +107,6 @@ class MainActivity : AppCompatActivity() {
         soundPool.autoPause()
     }
 
-
-
     private fun startCountDown() {
 
         currentCountDownTimer = createCountDownTimer(seekBar.progress * 60 * 1000L)
