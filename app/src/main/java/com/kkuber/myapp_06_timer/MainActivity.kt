@@ -99,9 +99,9 @@ class MainActivity : AppCompatActivity() {
             override fun onFinish() {
                 completeCountDown()
             }
-
-
         }
+
+
 
     private fun stopCountDown() {
         currentCountDownTimer?.cancel()
