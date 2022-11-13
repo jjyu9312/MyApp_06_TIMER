@@ -101,8 +101,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-
-
     private fun stopCountDown() {
         currentCountDownTimer?.cancel()
         currentCountDownTimer = null
@@ -114,8 +112,8 @@ class MainActivity : AppCompatActivity() {
         currentCountDownTimer = createCountDownTimer(seekBar.progress * 60 * 1000L)
         currentCountDownTimer?.start()
 
-        tickingSoundId?.let { soundId ->
-            soundPool.play(soundId, 1F, 1F, 0, -1, 1F)
+        tickingSoundId?.let { soundIds ->
+            soundPool.play(soundIds, 1F, 1F, 0, -1, 1F)
         }
     }
 
