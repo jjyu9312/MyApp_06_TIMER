@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.media.SoundPool
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.SeekBar
 import android.widget.TextView
@@ -113,6 +114,7 @@ class MainActivity : AppCompatActivity() {
         currentCountDownTimer?.start()
 
         tickingSoundId?.let { soundIds ->
+            Log.d("startCountDown", " sound play! ");
             soundPool.play(soundIds, 1F, 1F, 0, -1, 1F)
         }
     }
